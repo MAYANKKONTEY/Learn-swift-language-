@@ -1,2 +1,2 @@
 # Learn-swift-language-
-Understand basic Swift and Able build 
+Understand basic Swift and be able to build iOS system apps
