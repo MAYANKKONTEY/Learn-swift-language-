@@ -2,3 +2,8 @@ let greeting = "Hello"
 var name = "Swift"
 
 print(greeting + ", " + name + "!")
+
+func add(_ a: Int, _ b: Int) -> Int {
+    return a + b
+}
+print(add(9, 3))
