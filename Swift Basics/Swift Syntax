@@ -1,0 +1,51 @@
+Swift Syntax
+Learn Swift basics: variables, types, string interpolation, and simple functions.
+
+Basics
+Lets look at some basic Swift syntax:
+
+Constants/variables: Use let (constant) and var (variable).
+Types: Common types include Int, Double, Bool, String.
+Type inference: The compiler infers types from initial values.
+Example
+let greeting = "Hello"
+var name = "Swift"
+print(greeting + ", " + name)
+
+let pi: Double = 3.14159
+var count: Int = 3
+print("pi = \(pi), count = \(count)")
+
+Note: Unlike some other languages, in Swift let is used for constants and var for variables.
+
+Example explained
+let creates an immutable constant; var creates a mutable variable.
+Type annotation is optional; here we annotate Double and Int.
+String interpolation: \(expr) inserts values into strings.
+String Interpolation
+String interpolation is a way to embed expressions inside string literals for formatting.
+
+In swift string interpolation is done using \(expr).
+
+The most common and simple way to use string interpolation is to embed variable names inside string literals.
+
+Example
+let greeting = "Hello"
+var name = "Swift"
+print("\(greeting), \(name)!")
+
+Functions
+Functions are blocks of code that perform a specific task.
+
+Syntax: func name(param: Type) -> Return, call as name(param:).
+
+Example
+func add(_ a: Int, _ b: Int) -> Int {
+  return a + b
+}
+print(add(2, 3))  // 5
+
+This example defines add with two Int parameters and returns their sum as Int.
+
+Functions will be covered in detail in the Functions chapter.
+
