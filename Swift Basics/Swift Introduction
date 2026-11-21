@@ -1,0 +1,46 @@
+Swift Introduction
+Swift is a modern, fast, and safe language for building apps across Apple platforms and beyond.
+
+What is Swift?
+Swift is a modern, fast, and safe programming language created by Apple.
+
+Use it to build apps for iPhone, iPad, Mac, Apple Watch, and Apple TV.
+
+You can also run Swift on servers (Linux, Windows, macOS).
+
+Swift helps you write correct and efficient code with type inference, optionals, value types, and protocol-oriented programming.
+
+Example
+print("Hello, Swift!")
+
+Why Use Swift?
+Swift focuses on safety and speed.
+
+Features like optionals, value types, and generics help you avoid bugs and keep code clear.
+
+Great for iPhone/iPad, Mac, Apple Watch, and Apple TV development
+Open source and available on multiple platforms
+Expressive syntax, optionals to model absence, and value types for predictable behavior
+Vibrant ecosystem and first-class tooling in Xcode
+Swift History
+A brief timeline of important Swift releases and milestones.
+
+2014: Swift 1.0 announced at WWDC as a modern successor to Objective-C
+2015: Swift became open source at swift.org, with Linux support
+2019: Swift 5 introduced ABI stability on Apple platforms
+2021: Swift 5.5 added structured concurrency (async/await, Task, actor)
+Today: Used across iOS, macOS, and server-side Swift
+Mac and Xcode for iOS Development
+If your goal is to build and run iOS apps, you should use a Mac with Xcode.
+
+Xcode includes iOS SDKs, simulators, Interface Builder, and signing tools.
+You can learn Swift on Windows or Linux and in the browser, but building and running iOS apps requires a Mac.
+To ship to TestFlight or the App Store, you need an Apple Developer account.
+Tip: Experiment with Swift in this tutorial's "Try it Yourself" editor.
+
+When you're ready to build iOS apps, install Xcode from the Mac App Store.
+
+Get Started
+When you are finished with this tutorial, you will be able to write basic Swift programs and understand core language features used in real apps.
+
+No prior programming experience is required.
